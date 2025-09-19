@@ -5,7 +5,6 @@
 package card;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /**new code
  * A class that fills a magic hand of 7 cards with random Card Objects
@@ -58,6 +57,5 @@ public class CardTrick
         } else {
             System.out.println("Sorry, your card is not in the magic hand.");
         }    
-        input.close();
     }
 }
